@@ -1,7 +1,5 @@
 apply plugin: 'java-library'
 
-group = 'com.github.kinecosystem'
-
 sourceSets {
     test.java.srcDirs += 'src/test/java'
 }

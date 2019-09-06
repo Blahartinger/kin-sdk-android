@@ -2,8 +2,6 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'jacoco'
 
-group = 'com.github.kinecosystem'
-
 android {
     compileSdkVersion 28
 

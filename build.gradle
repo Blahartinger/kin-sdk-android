@@ -35,7 +35,7 @@ allprojects {
 }
 
 subprojects {
-    apply plugin: 'maven'
+    apply from: 'https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle'
 }
 
 task clean(type: Delete) {
